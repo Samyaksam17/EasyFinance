@@ -50,6 +50,7 @@ html {
   background-image: linear-gradient(to right, #fcba08, #8d1bff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* background-clip: text; */
 }
 
 .sub-section-two {
@@ -98,6 +99,7 @@ html {
   color: rgb(150, 126, 126);
   background-image: linear-gradient(to right, #5adc39, #2511da);
   -webkit-background-clip: text;
+  /* background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
