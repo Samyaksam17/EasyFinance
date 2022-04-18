@@ -1,14 +1,210 @@
 body{
-    color: whitesmoke;
+    /* color: whitesmoke; */
     font-family: 'Poppins', sans-serif;
     margin: 0px 0px 0px 0px; 
     padding: 0px 0px 0px 0px;
 }
+
+
+ /* a:link {
+     color: white;
+ } */
+/* a:visited - 
+a:hover 
+a:active  */
+a:hover{
+    color: rgb(84, 85, 85);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .Main-header-section{
     display: flex;
     justify-content: space-around;
     align-items:center;
+    position: sticky;
 }
 .navcontainer {
     background-color: black;
+    color: whitesmoke;
+    /* height: 120px; */
+
+}
+
+.sectiontwo{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color:#f3eadf;
+    align-items: center;
+}
+.subsectiontwo{
+    justify-content: center;
+}
+#h1a{
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: rgb(8, 8, 8);
+    background-image: linear-gradient(to right, #6BE1BA, #6E54EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* margin-bottom: ; */
+}
+#p1a{
+    /* border: 2px solid red; */
+    /* margin-top: 10px; */
+    font-size: Roboto,sans-serif;
+    margin-left: 55px;
+    letter-spacing: 3px;
+
+}
+#h2a{
+    font-size: 35px;
+    font-family:Bright;
+    letter-spacing: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 0;
+}
+#p2a{
+    margin-top: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: madelyn;
+    margin-left: 400px;
+    
+}
+/* SECTION THREE */
+.section-one {
+    background-color: #0a0a0a;
+}
+
+.section-one .sub-section-one {
+    display: flex;
+    padding: 213px 0 87px;
+}
+
+.sub-section-one .column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-section-one .column h4 {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: rgba(248,248,248,.7);
+}
+
+.sub-section-one .column p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.4);
+    margin-top: 10px;
+}
+
+
+
+#slideset2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: wheat;
+    background-image: linear-gradient(to right,#16A085 ,#F4D03F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    width: 100%;
+    height: 100px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+
+
+/* #slideset2 span {
+    color: #f8f8f8;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    min-width: 60%;
+    margin-left: 20%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right,#fcba08,#8d1bff);
+} */
+/* #slideset2>* {
+    left: 0;
+    top: 100%;
+    position: absolute;
+    animation: 8s autoplay2 infinite ease-in-out;
+}
+
+#slideset2>:nth-child(1) {
+    animation-delay: 0s;
+}
+#slideset2>:nth-child(2) {
+    animation-delay: 2s;
+}
+
+#slideset2>:nth-child(3) {
+    animation-delay: 4s;
+} */
+/* #slideset2>:nth-child(4) {
+    animation-delay: 6s;
+}  */
+
+
+
+/* FOOTER */
+.footercontainer {
+    /* display: flex; */
+    /* border: #5adc39 2px solid; */
+    background-color: #eddecb;
+    color: black;
+    border-radius: 10px;
+}
+.footer-section1 {
+    display: flex;
+    justify-content: space-between;
+}
+#pl{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-left: 25px;
+}
+.ul{
+    /* border: #5adc39 2px solid; */
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-right: 45px;
+    margin-top: 45px;
+}
+.contactus {
+    display: flex;
+    border-radius: 50px;
+    background-color:#eddecb;
+    background-image: linear-gradient(to right, pink, yellow);
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-left:200px;
+    margin-right: 200px;
+}
+#p{
+    font-size: 35px;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

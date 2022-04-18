@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    /* background-image: linear-gradient(to right,black,rgb(39, 18, 18)); */
 }
 
 .arrow>h1{
